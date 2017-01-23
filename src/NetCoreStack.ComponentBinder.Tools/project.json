@@ -1,6 +1,15 @@
 ﻿{
   "version": "1.0.0-*",
+  "description": "Command line tool to component bind for source file changes during development.",
+  "packOptions": {
+    "tags": [
+      "dotnet",
+      "cbind"
+    ]
+  },
   "buildOptions": {
+    "outputName": "dotnet-cbind",
+    "warningsAsErrors": true,
     "emitEntryPoint": true
   },
 
@@ -17,6 +26,6 @@
   },
 
   "frameworks": {
-    "netcoreapp1.1": { }
+    "netcoreapp1.0": {}
   }
 }
