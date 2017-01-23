@@ -10,12 +10,10 @@
     "Microsoft.Extensions.CommandLineUtils": "1.1.0",
     "Microsoft.Extensions.Logging": "1.1.0",
     "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
-    "Microsoft.Extensions.Logging.Console": "1.1.0",
     "Microsoft.NETCore.App": {
       "type": "platform",
       "version": "1.1.0"
-    },
-    "System.CommandLine": "0.1.0-e170121-3"
+    }
   },
 
   "frameworks": {
