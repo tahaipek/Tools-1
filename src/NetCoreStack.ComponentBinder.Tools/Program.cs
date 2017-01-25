@@ -1,5 +1,4 @@
 ﻿using Microsoft.DotNet.Cli.Utils;
-using Microsoft.DotNet.ProjectModel;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -93,8 +92,7 @@ namespace NetCoreStack.ComponentBinder.Tools
                 // invalid args syntax
                 return 1;
             }
-
-            var projectFile = Path.Combine(Directory.GetCurrentDirectory(), Project.FileName);
+            
             await new DotNetWatcher(logger).WatchAsync(new List<string> { options.WatchPath.Value }, _cancellationToken);
             return 0;
         }

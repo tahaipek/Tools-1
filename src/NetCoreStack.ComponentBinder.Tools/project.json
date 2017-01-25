@@ -15,7 +15,6 @@
 
   "dependencies": {
     "Microsoft.DotNet.Cli.Utils": "1.0.0-preview4-004233",
-    "Microsoft.DotNet.ProjectModel": "1.0.0-rc4-003206",
     "Microsoft.Extensions.CommandLineUtils": "1.1.0",
     "Microsoft.Extensions.Logging": "1.1.0",
     "Microsoft.Extensions.Logging.Abstractions": "1.1.0",
